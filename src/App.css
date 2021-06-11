@@ -1,0 +1,52 @@
+*{
+    box-sizing: border-box;
+}
+
+.pokeCard{
+    display: grid;
+    grid-template-columns: auto auto auto auto auto;
+    column-gap: 25px;
+    row-gap: 25px;
+    text-align: center;
+
+}
+.pokecard{
+    width: 200px;
+    border-style: solid;
+    border-width: 2px;
+    border-top-color: black;
+    background-color: greenyellow;
+
+}
+
+.abilities{
+    height: 140px;
+    border-top: 2px solid black;
+    border-bottom: 2px solid black;
+}
+body{
+    background-color: black;
+}
+
+.next{
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    background-color: yellow;
+    position: fixed;
+    right: 0;
+    bottom: 0%;
+    height: 30px;
+}
+
+.back{
+    font-size: 14px;
+    font-weight: bold;
+    color: red;
+    background-color: yellow;
+    position: fixed;
+    left: 0%;
+    bottom: 0%;
+    height: 30px;
+
+}
